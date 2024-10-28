@@ -20,6 +20,9 @@ A brief overview of what the project does and its purpose.
 2. Step 2
 3. Step 3
 
+## Ack
+Laku noć
+
 ## Usage
 ```bash
 # Example command
