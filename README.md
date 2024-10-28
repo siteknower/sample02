@@ -31,3 +31,12 @@ A brief overview of what the project does and its purpose.
 - Update your README as your project evolves.
 
 Feel free to modify this structure to suit your project's needs!
+
+## Licence
+```bash
+# Example command
+```bash
+jedan
+```bash
+dva
+```bash
