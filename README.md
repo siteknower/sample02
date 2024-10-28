@@ -21,11 +21,16 @@ A brief overview of what the project does and its purpose.
 3. Step 3
 
 ## Ack
+```bash
 Laku noć
+This is the first line.  
+This is the second line.
+```
 
 ## Usage
 ```bash
 # Example command
+```
 
 ### Tips
 - Use Markdown for formatting.
