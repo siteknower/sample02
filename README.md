@@ -23,3 +23,11 @@ A brief overview of what the project does and its purpose.
 ## Usage
 ```bash
 # Example command
+
+### Tips
+- Use Markdown for formatting.
+- Keep it concise but informative.
+- Use clear and simple language.
+- Update your README as your project evolves.
+
+Feel free to modify this structure to suit your project's needs!
