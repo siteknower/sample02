@@ -27,7 +27,7 @@ protected void btnPrint_Click(object sender, EventArgs e)
     
      tsi.preslAccountCode = "DEMO1";  // your account code
      tsi.preslUserCode = "0000";  // your user code
-     tsi.ReportFullName = "C:/MyReports/CustomerReport1.rpt";
+     tsi.ReportFullName = "C:/MyReports/CustomerReport1.rpt";   // your server drive
 
      tsi.ShowWindow(this, HttpContext.Current);
  }
@@ -44,7 +44,7 @@ private void Button1_Click(object sender, EventArgs e)
       tsi.preslAccountCode = "DEMO1";  // your account code
       tsi.preslUserCode "0000";  // your user code
       tsi.RPTDEST = 0;
-      tsi.ReportFullName = "C:/MyReports/CustomerReport1.rpt";;
+      tsi.ReportFullName = "C:/MyReports/CustomerReport1.rpt";  // your user's local drive
 
       tsi.ShowForm();
   }
