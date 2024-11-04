@@ -19,17 +19,17 @@ web application:
 ```bash
 using StnwServiceWeb;
 ...
-   protected void btnPrint_Click(object sender, EventArgs e)
-    {
-        clsStnwClassWeb tsi = new clsStnwClassWeb();
-        tsi.dsRPT = dst;   // your dataset
-       
-        tsi.preslAccountCode = "DEMO1";  // your account code
-        tsi.preslUserCode = "0000";  // yout user code
-        tsi.ReportFullName = "C:/MyReports/CustomerReport1.rpt";
+protected void btnPrint_Click(object sender, EventArgs e)
+ {
+     clsStnwClassWeb tsi = new clsStnwClassWeb();
+     tsi.dsRPT = dst;   // your dataset
+    
+     tsi.preslAccountCode = "DEMO1";  // your account code
+     tsi.preslUserCode = "0000";  // yout user code
+     tsi.ReportFullName = "C:/MyReports/CustomerReport1.rpt";
 
-        tsi.ShowWindow(this, HttpContext.Current);
-    }
+     tsi.ShowWindow(this, HttpContext.Current);
+ }
 ```
 
 ## Features
