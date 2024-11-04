@@ -22,7 +22,6 @@ using StnwServiceWeb;
 ...
 protected void btnPrint_Click(object sender, EventArgs e)
  {
-     DataSet dst = GetData();
      clsStnwClassWeb tsi = new clsStnwClassWeb();
      tsi.dsRPT = dst;   // your dataset
     
@@ -39,7 +38,6 @@ using StnwService;
 ...
 private void Button1_Click(object sender, EventArgs e)
   {
-      DataSet dsCustomers = GetData();
       clsStnwClass tsi = new clsStnwClass();
       tsi.dsRPT = dsCustomers;   // your dataset
        
