@@ -17,7 +17,21 @@ For a desktop solution, the rpt file is located anywhere on the local drive, and
 
 web application:
 ```bash
-# Example command
+using StnwServiceWeb;
+...
+   protected void btnPrint_Click(object sender, EventArgs e)
+    {
+        clsStnwClassWeb tsi = new clsStnwClassWeb();
+        tsi.dsRPT = dst;   // your dataset
+       
+        tsi.preslAccountCode = "DEMO1";  // your account code
+        tsi.preslUserCode = "0000";  // yout user code
+
+        string binPath = HttpContext.Current.Server.MapPath("~/bin");
+        tsi.ReportFullName = System.IO.Path.Combine(binPath, "CustomerReport1.rpt");
+
+        tsi.ShowWindow(this, HttpContext.Current);
+    }
 ```
 
 ## Features
