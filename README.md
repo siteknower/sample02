@@ -15,7 +15,7 @@ The key file is StnwService.dll for desktop or StnwServiceWeb.dll for web soluti
 
 
 ## Features
-- Feature 1
+- uses a dataset and rpt file to display the report
 - Feature 2
 - Feature 3
 
