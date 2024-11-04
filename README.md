@@ -10,6 +10,10 @@ Users of your software solution do not need to have Crystal Reports installed, n
 ## Usage
 First, log in to our website https://www.siteknower.com to get your AccountCode and UserCode
 
+The key file is StnwService.dll for desktop or StnwServiceWeb.dll for web solutions.
+
+
+
 ## Features
 - Feature 1
 - Feature 2
