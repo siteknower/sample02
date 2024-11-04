@@ -35,18 +35,18 @@ protected void btnPrint_Click(object sender, EventArgs e)
 ```bash
 using StnwService;
 ...
-      private void Button1_Click(object sender, EventArgs e)
-        {
-            clsStnwClass tsi = new clsStnwClass();
-            tsi.dsRPT = dsCustomers;   // your dataset
+private void Button1_Click(object sender, EventArgs e)
+  {
+      clsStnwClass tsi = new clsStnwClass();
+      tsi.dsRPT = dsCustomers;   // your dataset
        
-            tsi.preslAccountCode = "DEMO1";  // your account code
-            tsi.preslUserCode "0000";  // your user code
-            tsi.RPTDEST = 0;
-            tsi.ReportFullName = "C:/MyReports/CustomerReport1.rpt";;
+      tsi.preslAccountCode = "DEMO1";  // your account code
+      tsi.preslUserCode "0000";  // your user code
+      tsi.RPTDEST = 0;
+      tsi.ReportFullName = "C:/MyReports/CustomerReport1.rpt";;
 
-            tsi.ShowForm();
-        }
+      tsi.ShowForm();
+  }
 ```
 ## Features
 - uses a dataset and rpt file to display the report
