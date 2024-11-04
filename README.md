@@ -26,9 +26,7 @@ using StnwServiceWeb;
        
         tsi.preslAccountCode = "DEMO1";  // your account code
         tsi.preslUserCode = "0000";  // yout user code
-
-        string binPath = HttpContext.Current.Server.MapPath("~/bin");
-        tsi.ReportFullName = System.IO.Path.Combine(binPath, "CustomerReport1.rpt");
+        tsi.ReportFullName = "C:/MyReports/CustomerReport1.rpt";
 
         tsi.ShowWindow(this, HttpContext.Current);
     }
