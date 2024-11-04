@@ -5,7 +5,7 @@ Siteknower is simple web service solution to deliver Crystal Reports to your web
 
 It is intended for developers who use Crystal Reports in their web or desktop solutions.
 
-The user of your software solution does not need to have Crystal Reports installed, nor the runtime or any other required files and libraries otherwise required to run Crystal Reports.
+User of your software solution do not need to have Crystal Reports installed, nor the runtime or any other required files and libraries otherwise required to run Crystal Reports.
 
 ## Features
 - Feature 1
