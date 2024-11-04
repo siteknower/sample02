@@ -25,7 +25,7 @@ protected void btnPrint_Click(object sender, EventArgs e)
      tsi.dsRPT = dst;   // your dataset
     
      tsi.preslAccountCode = "DEMO1";  // your account code
-     tsi.preslUserCode = "0000";  // yout user code
+     tsi.preslUserCode = "0000";  // your user code
      tsi.ReportFullName = "C:/MyReports/CustomerReport1.rpt";
 
      tsi.ShowWindow(this, HttpContext.Current);
@@ -35,17 +35,18 @@ protected void btnPrint_Click(object sender, EventArgs e)
 ```bash
 using StnwService;
 ...
-protected void btnPrint_Click(object sender, EventArgs e)
- {
-     clsStnwClassWeb tsi = new clsStnwClassWeb();
-     tsi.dsRPT = dst;   // your dataset
-    
-     tsi.preslAccountCode = "DEMO1";  // your account code
-     tsi.preslUserCode = "0000";  // yout user code
-     tsi.ReportFullName = "C:/MyReports/CustomerReport1.rpt";
+      private void Button1_Click(object sender, EventArgs e)
+        {
+            clsStnwClass tsi = new clsStnwClass();
+            tsi.dsRPT = dsCustomers;   // your dataset
+       
+            tsi.preslAccountCode = "DEMO1";  // your account code
+            tsi.preslUserCode "0000";  // your user code
+            tsi.RPTDEST = 0;
+            tsi.ReportFullName = "C:/MyReports/CustomerReport1.rpt";;
 
-     tsi.ShowWindow(this, HttpContext.Current);
- }
+            tsi.ShowForm();
+        }
 ```
 ## Features
 - uses a dataset and rpt file to display the report
