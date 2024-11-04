@@ -86,7 +86,7 @@ This is the second line.
 Feel free to modify this structure to suit your project's needs!
 
 ## Licence
-Copyright © 2024-* Adacco, ltd.
+Copyright © 2010-* Adacco, ltd.
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software, associated images, and associated documentation files (the
