@@ -31,7 +31,22 @@ protected void btnPrint_Click(object sender, EventArgs e)
      tsi.ShowWindow(this, HttpContext.Current);
  }
 ```
+**desktop application:**
+```bash
+using StnwService;
+...
+protected void btnPrint_Click(object sender, EventArgs e)
+ {
+     clsStnwClassWeb tsi = new clsStnwClassWeb();
+     tsi.dsRPT = dst;   // your dataset
+    
+     tsi.preslAccountCode = "DEMO1";  // your account code
+     tsi.preslUserCode = "0000";  // yout user code
+     tsi.ReportFullName = "C:/MyReports/CustomerReport1.rpt";
 
+     tsi.ShowWindow(this, HttpContext.Current);
+ }
+```
 ## Features
 - uses a dataset and rpt file to display the report
 - Feature 2
