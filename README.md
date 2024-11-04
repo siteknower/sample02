@@ -15,7 +15,7 @@ Put that file in the bin/debug folder for your desktop solution, or in the bin f
 
 For a desktop solution, the rpt file is located anywhere on the local drive, and for the web, place it anywhere on the server.
 
-web application:
+**web application:**
 ```bash
 using StnwServiceWeb;
 ...
