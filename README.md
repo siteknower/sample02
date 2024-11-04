@@ -14,7 +14,7 @@ The key file is **StnwService.dll** for desktop or **StnwServiceWeb.dll** for we
 Download that file from here and put it in the bin/debug folder for your desktop solution, or in the bin folder on the server for your web solution.
 
 For a desktop solution, the rpt file is located anywhere on the local drive, and for the web, place it anywhere on the server..<br/>
-All you need to do is load your data into a DataSet,
+All you need to do is load your data into a DataSet.
 
 **web application:**
 ```bash
