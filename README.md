@@ -1,7 +1,7 @@
 # Siteknower Viewer for Crystal Reports 
 
 ## Description
-A brief overview of what the project does and its purpose.
+Siteknower is simple web service solution to deliver Crystal Reports to your web browser.
 
 ## Features
 - Feature 1
