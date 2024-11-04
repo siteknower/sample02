@@ -50,7 +50,7 @@ private void Button1_Click(object sender, EventArgs e)
   }
 ```
 ## Features
-- uses a dataset and rpt file to display the report
+- you can use rpt files created in any version of Crystal Reports
 - Feature 2
 - Feature 3
 
