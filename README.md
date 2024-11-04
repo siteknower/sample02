@@ -11,6 +11,7 @@ Users of your software solution do not need to have Crystal Reports installed, n
 First, log in to our website https://www.siteknower.com to get your AccountCode and UserCode
 
 The key file is StnwService.dll for desktop or StnwServiceWeb.dll for web solutions.
+Put that file in the bin/debug folder for your desktop solution, or in the bin folder on the server for your web solution.
 
 For a desktop solution, the rpt file is located on a local drive, and for the web, place it in the bin folder on the server.
 
