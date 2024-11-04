@@ -3,6 +3,8 @@
 ## Description
 Siteknower is simple web service solution to deliver Crystal Reports to your web browser.
 
+It is intended for developers who use Crystal Reports in their web or desktop solutions.
+
 ## Features
 - Feature 1
 - Feature 2
